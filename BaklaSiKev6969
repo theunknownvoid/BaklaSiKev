@@ -23,7 +23,7 @@ elseif (KRNL_LOADED and request) then
 	print("Krnl")
 elseif request then 
 	Request = request
-	say('bakla ako tas mahal ko si sen dhil sob rang laki z ng tite nya')
+	say('ang laki ng tite ni sen')
 else
 	say('i dont have request')
 end	
